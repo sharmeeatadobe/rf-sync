@@ -1,0 +1,17 @@
+{
+  "name": "rf-sync",
+  "version": "1.0.0",
+  "description": "POC for RF-sync",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mustache": "^4.2.0",
+    "mustache-express": "^1.3.2"
+  }
+}
