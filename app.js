@@ -35,11 +35,11 @@ app.get("/", async (req, res) => {
   }
   const finalPayload = {
     eventName: payload.data[0].eventName,
-    eventDesc: payload.data[0].title,
+    abstract: payload.data[0].abstract,
     ...payload,
   };
 
-  res.render("max-london-2025.html", finalPayload);
+  res.render("./summit-2025/session.html", finalPayload);
 });
 
 app.listen(PORT, () => {
